@@ -1,0 +1,622 @@
+{
+  "description": "Common combinations of degree subjects (Eg, subjects of the form \"X with Y\" or \"X and Y\")",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_degrees.md#dfereferencedatadegreescombined_subjects",
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "suggestion_synonyms": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "match_synonyms": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "comment": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "generic": {
+      "kind": "optional",
+      "schema": "boolean"
+    },
+    "subject_ids": {
+      "kind": "array",
+      "element_schema": "string"
+    }
+  },
+  "field_descriptions": {
+    "id": "A unique identifier for this subject",
+    "name": "The long name of the subject, eg \"accountancy\"",
+    "suggestion_synonyms": "A list of common alternative names that may be appropriate for this subject",
+    "match_synonyms": "A list of common alternative names that are equivalent to this subject. An answer matching a match synonym can be safely matched to this subject.",
+    "dttp_id": "The ID used for this subject in DTTP",
+    "hecos_code": "The HESA DEGSBJ code for this degree subject (from [HECoS](https://www.hesa.ac.uk/support/documentation/hecos); see also the [DEGSBJ](https://www.hesa.ac.uk/collection/c22053/e/degsbj) documentation)",
+    "subject_ids": "The subject IDs of the individual single-subject parts of a combined subject",
+    "generic": "If present and true, indicates that this is a generic option"
+  },
+  "records": [
+    {
+      "name": "Accounting and finance",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "937f70f0-5dce-e911-a985-000d3ab79618",
+        "977f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "469e7cc9-9691-45bd-859d-de8f9515913c"
+    },
+    {
+      "name": "Banking and finance",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "cd8370f0-5dce-e911-a985-000d3ab79618",
+        "977f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "7ff41fe2-0464-4531-affa-c68d72565adb"
+    },
+    {
+      "name": "Creative writing and English literature",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "3b7f70f0-5dce-e911-a985-000d3ab79618",
+        "df8070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "1c15637d-cd62-4854-95ab-aac0b412bcd2"
+    },
+    {
+      "name": "Criminology and psychology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e58170f0-5dce-e911-a985-000d3ab79618",
+        "fb8170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "7c831903-11f7-4984-bdf3-a6ac41abe47d"
+    },
+    {
+      "name": "Criminology and sociology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e58170f0-5dce-e911-a985-000d3ab79618",
+        "078270f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "bf9ab480-1b29-4c15-ba72-4d33e0dc59b1"
+    },
+    {
+      "name": "Drama and theatre studies",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "5d7f70f0-5dce-e911-a985-000d3ab79618",
+        "058370f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "cefefe97-2538-44f2-a8d3-6fb2830b7425"
+    },
+    {
+      "name": "Economics and politics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "b58170f0-5dce-e911-a985-000d3ab79618",
+        "f18170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "129ad6e8-bcbf-4762-9ac0-8d6bcef16380"
+    },
+    {
+      "name": "Education and psychology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c38170f0-5dce-e911-a985-000d3ab79618",
+        "fb8170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "fd51c350-c734-414f-b5db-e6839e5cbf60"
+    },
+    {
+      "name": "Education and special needs teaching",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "Education and special educational needs"
+      ],
+      "subject_ids": [
+        "c38170f0-5dce-e911-a985-000d3ab79618",
+        "458570f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "8079fd02-6f30-4926-b7fd-9ac3c114184d"
+    },
+    {
+      "name": "Education studies and learning support",
+      "suggestion_synonyms": [
+        "Teaching and learning support"
+      ],
+      "match_synonyms": [
+        "Education and learning support"
+      ],
+      "subject_ids": [
+        "c38170f0-5dce-e911-a985-000d3ab79618",
+        "c98170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "1caa89b0-3b59-4690-bdfd-7529931008e6"
+    },
+    {
+      "name": "English and American literature",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e18070f0-5dce-e911-a985-000d3ab79618",
+        "ef8570f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "4b1494e7-ee59-4d3b-89e9-d4fd35410d97"
+    },
+    {
+      "name": "English and creative writing",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e18070f0-5dce-e911-a985-000d3ab79618",
+        "3b7f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "caf3c7ab-d137-4560-85e9-2a0577c6cf50"
+    },
+    {
+      "name": "English and drama",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e18070f0-5dce-e911-a985-000d3ab79618",
+        "5d7f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "6d50091e-2de1-4c93-af55-fd565aa481ab"
+    },
+    {
+      "name": "English and history",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e18070f0-5dce-e911-a985-000d3ab79618",
+        "c78070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "caf2a578-0858-4566-ac20-11522d06dc29"
+    },
+    {
+      "name": "English language and linguistics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "dd8070f0-5dce-e911-a985-000d3ab79618",
+        "f18070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "a96cd0c5-c546-446b-9e77-a1f61dc10841"
+    },
+    {
+      "name": "English language and literature",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "English lang and lit",
+        "English lang and English lit",
+        "English language and English literature"
+      ],
+      "subject_ids": [
+        "dd8070f0-5dce-e911-a985-000d3ab79618",
+        "df8070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "dd967b4a-4d22-48a3-a2f8-d5719cee0519"
+    },
+    {
+      "name": "English literature and creative writing",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "df8070f0-5dce-e911-a985-000d3ab79618",
+        "3b7f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "89c79bca-b5cd-4cb3-958c-0bd5f94072ea"
+    },
+    {
+      "name": "English literature and history",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "df8070f0-5dce-e911-a985-000d3ab79618",
+        "c78070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "3a5760e8-0844-4dbc-b9c5-456ea70af23e"
+    },
+    {
+      "name": "Fashion and textiles",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "457f70f0-5dce-e911-a985-000d3ab79618",
+        "417f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "390b3f19-71eb-485e-a577-67dbd1b19474"
+    },
+    {
+      "name": "Finance and accounting",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "977f70f0-5dce-e911-a985-000d3ab79618",
+        "937f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "6e556245-54b4-4dac-9d80-5846b44e9ee3"
+    },
+    {
+      "name": "Food and nutrition",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "278270f0-5dce-e911-a985-000d3ab79618",
+        "658070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "d03446a1-c1f4-442f-bd8a-1ca8c57071c0"
+    },
+    {
+      "name": "French and Spanish",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e58070f0-5dce-e911-a985-000d3ab79618",
+        "eb8070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "185a2eac-7b83-4707-8fc8-d0248b139175"
+    },
+    {
+      "name": "French and German",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e58070f0-5dce-e911-a985-000d3ab79618",
+        "e98070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "593eae72-6c71-47f1-88d5-b49cc19109cf"
+    },
+    {
+      "name": "French and Italian",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e58070f0-5dce-e911-a985-000d3ab79618",
+        "ef8070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "e34b4fa0-cf35-420a-a2b9-130780cc7783"
+    },
+    {
+      "name": "History and archaeology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c78070f0-5dce-e911-a985-000d3ab79618",
+        "c18070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "0b05c67a-cdd6-4ebe-ae01-db17d39dc7b5"
+    },
+    {
+      "name": "History and education",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c78070f0-5dce-e911-a985-000d3ab79618",
+        "c38170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "c11ef8de-5487-4caa-9b81-23a04014c288"
+    },
+    {
+      "name": "History and international relations",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c78070f0-5dce-e911-a985-000d3ab79618",
+        "ef8170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "8a8227c0-3a9c-4c58-b86f-2a8a220ef195"
+    },
+    {
+      "name": "History and philosophy",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c78070f0-5dce-e911-a985-000d3ab79618",
+        "ff8070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "5b9ad2a5-c692-4ca1-9cf4-c49a4a1c15e4"
+    },
+    {
+      "name": "History and politics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c78070f0-5dce-e911-a985-000d3ab79618",
+        "f18170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "d1e64b03-0765-461c-b2dd-9c16983f4296"
+    },
+    {
+      "name": "History and sociology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "c78070f0-5dce-e911-a985-000d3ab79618",
+        "078270f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "3c4ffcf2-2882-40dd-a71a-68117e4369cf"
+    },
+    {
+      "name": "International relations and politics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "ef8170f0-5dce-e911-a985-000d3ab79618",
+        "f18170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "7472c667-cfe1-4bab-a416-43368e1166e5"
+    },
+    {
+      "name": "Law and criminology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "e78170f0-5dce-e911-a985-000d3ab79618",
+        "e58170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "3ec00128-38e5-4859-bae1-b3e70548c2e4"
+    },
+    {
+      "name": "Mathematics and philosophy",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "6b8170f0-5dce-e911-a985-000d3ab79618",
+        "ff8070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "c8b2809c-55a7-4f59-a325-990706a48055"
+    },
+    {
+      "name": "Mathematics and physics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "6b8170f0-5dce-e911-a985-000d3ab79618",
+        "918170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "ed8957fa-9b8f-490d-848b-2995a698027b"
+    },
+    {
+      "name": "Mathematics and statistics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "6b8170f0-5dce-e911-a985-000d3ab79618",
+        "718170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "96667ef1-0c31-4266-b3ed-6dc2cfaa1c7b"
+    },
+    {
+      "name": "Mathematics and finance",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "6b8170f0-5dce-e911-a985-000d3ab79618",
+        "977f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "09859fed-2b3e-4e9e-8ab3-ddfe0e942d41"
+    },
+    {
+      "name": "Philosophy and politics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "ff8070f0-5dce-e911-a985-000d3ab79618",
+        "f18170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "34c855ba-72fb-400c-841c-a58aa1b9399d"
+    },
+    {
+      "name": "Philosophy and theology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "ff8070f0-5dce-e911-a985-000d3ab79618",
+        "058170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "e8599844-7783-4707-b090-e7f9d5abc6bc"
+    },
+    {
+      "name": "Philosophy, politics and economics",
+      "suggestion_synonyms": [
+        "PPE"
+      ],
+      "match_synonyms": [],
+      "subject_ids": [
+        "ff8070f0-5dce-e911-a985-000d3ab79618",
+        "f18170f0-5dce-e911-a985-000d3ab79618",
+        "b58170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "54dc5ee9-3397-4615-b4cd-0a2ad1c2ac60"
+    },
+    {
+      "name": "Philosophy, religion and ethics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "ff8070f0-5dce-e911-a985-000d3ab79618",
+        "038170f0-5dce-e911-a985-000d3ab79618",
+        "958370f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "0262cbd3-8615-4355-a1fc-ec44c5681d37"
+    },
+    {
+      "name": "Physical education and sports coaching",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "PE and sports coaching"
+      ],
+      "subject_ids": [
+        "ba1ffe89-73fb-4de8-a48d-12e644ee5687",
+        "837f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "e5cf103f-8a15-4fd5-a2b3-4fef55a3194f"
+    },
+    {
+      "name": "Physical education and sports studies",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "PE and sports studies",
+        "Physical education and sport",
+        "PE and sport"
+      ],
+      "subject_ids": [
+        "ba1ffe89-73fb-4de8-a48d-12e644ee5687",
+        "897f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "88ca4706-ebbf-414d-b6c9-614ca31aafd9"
+    },
+    {
+      "name": "Physics and astrophysics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "918170f0-5dce-e911-a985-000d3ab79618",
+        "7d8170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "06bc865b-d8a3-4cb4-a833-182122531b4a"
+    },
+    {
+      "name": "Politics and international relations",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "f18170f0-5dce-e911-a985-000d3ab79618",
+        "ef8170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "fa7f8dd7-4c62-4485-bc86-a46906404c82"
+    },
+    {
+      "name": "Politics and modern history",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "f18170f0-5dce-e911-a985-000d3ab79618",
+        "d18070f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "f40d2415-64ce-4087-8bea-61468b788f9c"
+    },
+    {
+      "name": "Politics and sociology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "f18170f0-5dce-e911-a985-000d3ab79618",
+        "078270f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "d26637ec-375e-4c3e-832e-844152a6753e"
+    },
+    {
+      "name": "Psychology and criminology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "fb8170f0-5dce-e911-a985-000d3ab79618",
+        "e58170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "77bb4458-42c7-49c5-b4fa-8a921e691cb3"
+    },
+    {
+      "name": "Psychology and education studies",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "fb8170f0-5dce-e911-a985-000d3ab79618",
+        "c38170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "9b071a71-34ab-49ab-ab18-b9ac1668ddfd"
+    },
+    {
+      "name": "Psychology and sociology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "fb8170f0-5dce-e911-a985-000d3ab79618",
+        "078270f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "2625d422-6699-49c0-85d9-281c53d5f666"
+    },
+    {
+      "name": "Religion, philosophy and ethics",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "038170f0-5dce-e911-a985-000d3ab79618",
+        "ff8070f0-5dce-e911-a985-000d3ab79618",
+        "958370f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "d15965d9-197b-4de9-b533-a6ef62d43f60"
+    },
+    {
+      "name": "Sociology and criminology",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "subject_ids": [
+        "078270f0-5dce-e911-a985-000d3ab79618",
+        "e58170f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "56671226-925b-415c-9e08-c70fc6865998"
+    },
+    {
+      "name": "Sports coaching and physical education",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "Sports coaching and PE"
+      ],
+      "subject_ids": [
+        "837f70f0-5dce-e911-a985-000d3ab79618",
+        "ba1ffe89-73fb-4de8-a48d-12e644ee5687"
+      ],
+      "id": "b5fa99d3-db95-43d2-8bf6-bb8775f38aa0"
+    },
+    {
+      "name": "Sports coaching and sports development",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "Sports coaching and development"
+      ],
+      "subject_ids": [
+        "837f70f0-5dce-e911-a985-000d3ab79618",
+        "857f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "96d33f57-8d2d-43f5-a81d-3f14213fa5b2"
+    },
+    {
+      "name": "Sport and education studies",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "Sport studies and education studies",
+        "Sport and education"
+      ],
+      "subject_ids": [
+        "897f70f0-5dce-e911-a985-000d3ab79618",
+        "837f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "dd99c9cd-469a-4305-9092-f392b3d2b04f"
+    },
+    {
+      "name": "Sports studies and sports coaching",
+      "suggestion_synonyms": [],
+      "match_synonyms": [
+        "Sport, fitness and coaching",
+        "Sports and coaching"
+      ],
+      "subject_ids": [
+        "897f70f0-5dce-e911-a985-000d3ab79618",
+        "837f70f0-5dce-e911-a985-000d3ab79618"
+      ],
+      "id": "4d5548c7-9692-422f-b04b-e64dbac18947"
+    }
+  ]
+}

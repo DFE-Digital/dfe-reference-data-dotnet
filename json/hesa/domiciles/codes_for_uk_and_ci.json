@@ -1,0 +1,47 @@
+{
+  "description": null,
+  "usage_guidance": null,
+  "docs_url": null,
+  "schema": {
+    "id": {
+      "schema": "string",
+      "kind": "optional"
+    },
+    "code": "string"
+  },
+  "field_descriptions": null,
+  "records": [
+    {
+      "code": "ZZ",
+      "id": null
+    },
+    {
+      "code": "XF",
+      "id": "England"
+    },
+    {
+      "code": "GG",
+      "id": "Guernsey"
+    },
+    {
+      "code": "JE",
+      "id": "Jersey"
+    },
+    {
+      "code": "XG",
+      "id": "Northern Ireland"
+    },
+    {
+      "code": "XH",
+      "id": "Scotland"
+    },
+    {
+      "code": "XI",
+      "id": "Wales"
+    },
+    {
+      "code": "XK",
+      "id": "other"
+    }
+  ]
+}

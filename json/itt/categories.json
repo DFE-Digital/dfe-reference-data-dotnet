@@ -1,0 +1,127 @@
+{
+  "description": "Initial teacher training subject categories, under a proposed new categorisation shared between Register and Find/Publish.",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_itt.md#dfereferencedataittcategories",
+  "schema": {
+    "id": "string",
+    "name": "string"
+  },
+  "field_descriptions": {
+    "id": "A unique identified for this subject category",
+    "name": "The long name for this subject category"
+  },
+  "records": [
+    {
+      "name": "Ancient languages",
+      "id": "c6d6d59b-f6c5-4a2d-98a1-04f2e99539a9"
+    },
+    {
+      "name": "Art and design",
+      "id": "69b468df-f7ca-40cb-9410-ed5f4e5bd61b"
+    },
+    {
+      "name": "Biology",
+      "id": "b51a9678-0a36-4361-983a-fc74f46c1b06"
+    },
+    {
+      "name": "Business studies",
+      "id": "139d6fa7-6044-423b-a8ac-2192956c357b"
+    },
+    {
+      "name": "Chemistry",
+      "id": "167b889a-4cbb-47ff-a196-4103cb7ea43d"
+    },
+    {
+      "name": "Classics",
+      "id": "95547d49-2a52-4ae0-b4ea-744e0da4bfa2"
+    },
+    {
+      "name": "Citizenship",
+      "id": "01c4ca2a-914d-4afc-ba19-5b71c6348410"
+    },
+    {
+      "name": "Media studies",
+      "id": "be8b8c66-694f-4993-b71f-21710a8a0e29"
+    },
+    {
+      "name": "Computing",
+      "id": "bc0a97ed-c09c-4688-9dce-b4ea888b6c51"
+    },
+    {
+      "name": "Design and technology",
+      "id": "81900c77-7f9a-4f3a-93e9-02fcbc2ff8a5"
+    },
+    {
+      "name": "Drama",
+      "id": "41f02e8d-de4e-4eff-b02d-a981216ee39e"
+    },
+    {
+      "name": "Economics",
+      "id": "c1ee0be3-b0ce-4581-a62e-1fd79f58920d"
+    },
+    {
+      "name": "English",
+      "id": "48721ee7-577b-4819-8f92-b35d48414443"
+    },
+    {
+      "name": "Health and social care",
+      "id": "d2ffa385-84a8-45ad-9a45-66355b07887b"
+    },
+    {
+      "name": "Modern languages ",
+      "id": "262f596b-b8a2-40c2-9efc-1945586ab0c5"
+    },
+    {
+      "name": "Geography",
+      "id": "518be3b3-a0b3-45cb-9299-dfaeea0c4b7e"
+    },
+    {
+      "name": "History",
+      "id": "73ade5bc-0e14-43d9-8a67-6931ba07ab57"
+    },
+    {
+      "name": "Law",
+      "id": "e898520b-bff7-4ce9-9324-10dd2279894a"
+    },
+    {
+      "name": "Mathematics",
+      "id": "71cbc6f2-9b24-4504-86f5-979e573de058"
+    },
+    {
+      "name": "Music",
+      "id": "cc203931-79bf-4d32-982a-ad56600ba141"
+    },
+    {
+      "name": "Religious education",
+      "id": "e8d5dffc-bfba-4d8a-843c-806c6d80d86b"
+    },
+    {
+      "name": "Philosophy",
+      "id": "0646e496-34e6-43e3-8f1e-443dbcbf417c"
+    },
+    {
+      "name": "Physical education",
+      "id": "3eeba733-48e9-4b4d-8269-045bdfda544e"
+    },
+    {
+      "name": "Physics",
+      "id": "d059a9cd-9b70-49bf-8194-9a71081e6cb9"
+    },
+    {
+      "name": "Psychology",
+      "id": "ef4990e2-1786-419d-8814-7e62712092b3"
+    },
+    {
+      "name": "Social sciences",
+      "id": "d17ad243-e9bd-49f8-8a6b-bf846c62fe45"
+    },
+    {
+      "name": "Primary",
+      "id": "50a6f234-2af4-4052-bec4-a3d9241e35dc"
+    },
+    {
+      "name": "Early Years",
+      "id": "5c0ec601-e802-475b-b310-f32068f78f57"
+    }
+  ]
+}

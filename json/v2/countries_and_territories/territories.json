@@ -1,0 +1,351 @@
+{
+  "description": "List of territories",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_countries_and_territories.md#dfereferencedatacountriesandterritoriescountries_and_territories",
+  "schema": {
+    "id": "string",
+    "name": "string"
+  },
+  "field_descriptions": {
+    "id": "List of territories,",
+    "name": "The human-readable name of the territory"
+  },
+  "records": [
+    {
+      "name": "Ajman",
+      "id": "AE-AJ"
+    },
+    {
+      "name": "Abu Dhabi",
+      "id": "AE-AZ"
+    },
+    {
+      "name": "Dubai",
+      "id": "AE-DU"
+    },
+    {
+      "name": "Fujairah",
+      "id": "AE-FU"
+    },
+    {
+      "name": "Ras al-Khaimah",
+      "id": "AE-RK"
+    },
+    {
+      "name": "Sharjah",
+      "id": "AE-SH"
+    },
+    {
+      "name": "Umm al-Quwain",
+      "id": "AE-UQ"
+    },
+    {
+      "name": "Anguilla",
+      "id": "AI"
+    },
+    {
+      "name": "Antarctica",
+      "id": "AQ"
+    },
+    {
+      "name": "American Samoa",
+      "id": "AS"
+    },
+    {
+      "name": "Aruba",
+      "id": "AW"
+    },
+    {
+      "name": "Åland Islands",
+      "id": "AX"
+    },
+    {
+      "name": "British Antarctic Territory",
+      "id": "BAT"
+    },
+    {
+      "name": "Saint Barthélemy",
+      "id": "BL"
+    },
+    {
+      "name": "Bermuda",
+      "id": "BM"
+    },
+    {
+      "name": "Bonaire",
+      "id": "BQ-BO"
+    },
+    {
+      "name": "Saba",
+      "id": "BQ-SA"
+    },
+    {
+      "name": "Sint Eustatius",
+      "id": "BQ-SE"
+    },
+    {
+      "name": "Bouvet Island",
+      "id": "BV"
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "id": "CC"
+    },
+    {
+      "name": "Cook Islands",
+      "id": "CK"
+    },
+    {
+      "name": "Czechoslovakia",
+      "id": "CS"
+    },
+    {
+      "name": "Curaçao",
+      "id": "CW"
+    },
+    {
+      "name": "Christmas Island",
+      "id": "CX"
+    },
+    {
+      "name": "East Germany",
+      "id": "DD"
+    },
+    {
+      "name": "Western Sahara",
+      "id": "EH"
+    },
+    {
+      "name": "Ceuta",
+      "id": "ES-CE"
+    },
+    {
+      "name": "Melilla",
+      "id": "ES-ML"
+    },
+    {
+      "name": "Falkland Islands",
+      "id": "FK"
+    },
+    {
+      "name": "Faroe Islands",
+      "id": "FO"
+    },
+    {
+      "name": "French Guiana",
+      "id": "GF"
+    },
+    {
+      "name": "Guernsey",
+      "id": "GG"
+    },
+    {
+      "name": "Gibraltar",
+      "id": "GI"
+    },
+    {
+      "name": "Greenland",
+      "id": "GL"
+    },
+    {
+      "name": "Guadeloupe",
+      "id": "GP"
+    },
+    {
+      "name": "South Georgia and South Sandwich Islands",
+      "id": "GS"
+    },
+    {
+      "name": "Guam",
+      "id": "GU"
+    },
+    {
+      "name": "Hong Kong",
+      "id": "HK"
+    },
+    {
+      "name": "Heard Island and McDonald Islands",
+      "id": "HM"
+    },
+    {
+      "name": "Isle of Man",
+      "id": "IM"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "id": "IO"
+    },
+    {
+      "name": "Jersey",
+      "id": "JE"
+    },
+    {
+      "name": "Cayman Islands",
+      "id": "KY"
+    },
+    {
+      "name": "Saint-Martin (French part)",
+      "id": "MF"
+    },
+    {
+      "name": "Macao",
+      "id": "MO"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "id": "MP"
+    },
+    {
+      "name": "Martinique",
+      "id": "MQ"
+    },
+    {
+      "name": "Montserrat",
+      "id": "MS"
+    },
+    {
+      "name": "New Caledonia",
+      "id": "NC"
+    },
+    {
+      "name": "Norfolk Island",
+      "id": "NF"
+    },
+    {
+      "name": "Niue",
+      "id": "NU"
+    },
+    {
+      "name": "French Polynesia",
+      "id": "PF"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "id": "PM"
+    },
+    {
+      "name": "Pitcairn, Henderson, Ducie and Oeno Islands",
+      "id": "PN"
+    },
+    {
+      "name": "Puerto Rico",
+      "id": "PR"
+    },
+    {
+      "name": "Réunion",
+      "id": "RE"
+    },
+    {
+      "name": "Ascension",
+      "id": "SH-AC"
+    },
+    {
+      "name": "Saint Helena",
+      "id": "SH-HL"
+    },
+    {
+      "name": "Tristan da Cunha",
+      "id": "SH-TA"
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "id": "SJ"
+    },
+    {
+      "name": "USSR",
+      "id": "SU"
+    },
+    {
+      "name": "Sint Maarten (Dutch part)",
+      "id": "SX"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "id": "TC"
+    },
+    {
+      "name": "French Southern Territories",
+      "id": "TF"
+    },
+    {
+      "name": "Tokelau",
+      "id": "TK"
+    },
+    {
+      "name": "Taiwan",
+      "id": "TW"
+    },
+    {
+      "name": "Johnston Atoll",
+      "id": "UM-67"
+    },
+    {
+      "name": "Midway Islands",
+      "id": "UM-71"
+    },
+    {
+      "name": "Navassa Island",
+      "id": "UM-76"
+    },
+    {
+      "name": "Wake Island",
+      "id": "UM-79"
+    },
+    {
+      "name": "Baker Island",
+      "id": "UM-81"
+    },
+    {
+      "name": "Howland Island",
+      "id": "UM-84"
+    },
+    {
+      "name": "Jarvis Island",
+      "id": "UM-86"
+    },
+    {
+      "name": "Kingman Reef",
+      "id": "UM-89"
+    },
+    {
+      "name": "Palmyra Atoll",
+      "id": "UM-95"
+    },
+    {
+      "name": "British Virgin Islands",
+      "id": "VG"
+    },
+    {
+      "name": "United States Virgin Islands",
+      "id": "VI"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "id": "WF"
+    },
+    {
+      "name": "Cyprus (European Union)",
+      "id": "XA"
+    },
+    {
+      "name": "Cyprus (non European Union)",
+      "id": "XB"
+    },
+    {
+      "name": "Akrotiri",
+      "id": "XQZ"
+    },
+    {
+      "name": "Dhekelia",
+      "id": "XXD"
+    },
+    {
+      "name": "Mayotte",
+      "id": "YT"
+    },
+    {
+      "name": "Yugoslavia",
+      "id": "YU"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "description": null,
+  "usage_guidance": null,
+  "docs_url": null,
+  "schema": {
+    "id": {
+      "kind": "array",
+      "element_schema": "integer"
+    },
+    "option": "symbol",
+    "levels": {
+      "kind": "array",
+      "element_schema": "symbol"
+    }
+  },
+  "field_descriptions": null,
+  "records": [
+    {
+      "option": "main",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        3,
+        11
+      ]
+    },
+    {
+      "option": "main",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        5,
+        11
+      ]
+    },
+    {
+      "option": "main",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        11,
+        16
+      ]
+    },
+    {
+      "option": "main",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        11,
+        18
+      ]
+    },
+    {
+      "option": "additional",
+      "id": [
+        0,
+        5
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        2,
+        7
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        2,
+        11
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        2,
+        19
+      ]
+    },
+    {
+      "option": "main",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        3,
+        7
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        3,
+        8
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        3,
+        9
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        3,
+        16
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        4,
+        11
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        4,
+        19
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        5,
+        9
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary",
+        "secondary"
+      ],
+      "id": [
+        5,
+        14
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        5,
+        18
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary"
+      ],
+      "id": [
+        7,
+        11
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "primary",
+        "secondary"
+      ],
+      "id": [
+        7,
+        14
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        7,
+        16
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        7,
+        18
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        9,
+        13
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        9,
+        14
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        9,
+        16
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        11,
+        19
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        13,
+        18
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        14,
+        18
+      ]
+    },
+    {
+      "option": "additional",
+      "levels": [
+        "secondary"
+      ],
+      "id": [
+        14,
+        19
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "description": "Generic degree subjects",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_degrees.md#dfereferencedatadegreesgenericsubjects",
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "suggestion_synonyms": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "match_synonyms": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "comment": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "generic": {
+      "kind": "optional",
+      "schema": "boolean"
+    },
+    "dttp_id": {
+      "kind": "optional",
+      "schema": {
+        "kind": "code",
+        "pattern": "(?-mix:^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$)"
+      }
+    },
+    "hecos_code": {
+      "kind": "optional",
+      "schema": {
+        "kind": "code",
+        "pattern": "(?-mix:^[0-9]+$)"
+      }
+    },
+    "subject_ids": {
+      "kind": "array",
+      "element_schema": "string"
+    }
+  },
+  "field_descriptions": {
+    "id": "A unique identifier for this subject",
+    "name": "The long name of the subject, eg \"accountancy\"",
+    "suggestion_synonyms": "A list of common alternative names that may be appropriate for this subject",
+    "match_synonyms": "A list of common alternative names that are equivalent to this subject. An answer matching a match synonym can be safely matched to this subject.",
+    "dttp_id": "The ID used for this subject in DTTP",
+    "hecos_code": "The HESA DEGSBJ code for this degree subject (from [HECoS](https://www.hesa.ac.uk/support/documentation/hecos); see also the [DEGSBJ](https://www.hesa.ac.uk/collection/c22053/e/degsbj) documentation)",
+    "subject_ids": "The subject IDs of the individual single-subject parts of a combined subject",
+    "generic": "If present and true, indicates that this is a generic option"
+  },
+  "records": [
+    {
+      "name": "Not known",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "hecos_code": "999999",
+      "generic": true,
+      "id": "208373a5-8bff-41c8-8b13-3d1d0b34e36e"
+    },
+    {
+      "name": "Not applicable",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "hecos_code": "999998",
+      "generic": true,
+      "id": "e84cefde-c18f-478d-8649-a0e5e795d318"
+    }
+  ]
+}

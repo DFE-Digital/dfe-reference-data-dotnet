@@ -1,0 +1,1021 @@
+{
+  "description": "CAH Level 3 categories",
+  "usage_guidance": null,
+  "docs_url": "FIXME",
+  "schema": {
+    "id": "string",
+    "l1": "string",
+    "l2": "string",
+    "name": "string"
+  },
+  "field_descriptions": {
+    "id": "A unique identifier",
+    "l1": "The ID of this category's level 1 grandparent",
+    "l2": "The ID of this category's level 2 parent",
+    "name": "The name of the level 3 category"
+  },
+  "records": [
+    {
+      "name": "medical sciences (non-specific)",
+      "l1": "CAH01",
+      "l2": "CAH01-01",
+      "id": "CAH01-01-01"
+    },
+    {
+      "name": "medicine (non-specific)",
+      "l1": "CAH01",
+      "l2": "CAH01-01",
+      "id": "CAH01-01-02"
+    },
+    {
+      "name": "medicine by specialism",
+      "l1": "CAH01",
+      "l2": "CAH01-01",
+      "id": "CAH01-01-03"
+    },
+    {
+      "name": "dentistry",
+      "l1": "CAH01",
+      "l2": "CAH01-01",
+      "id": "CAH01-01-04"
+    },
+    {
+      "name": "pharmacology",
+      "l1": "CAH02",
+      "l2": "CAH02-02",
+      "id": "CAH02-02-01"
+    },
+    {
+      "name": "toxicology",
+      "l1": "CAH02",
+      "l2": "CAH02-02",
+      "id": "CAH02-02-02"
+    },
+    {
+      "name": "pharmacy",
+      "l1": "CAH02",
+      "l2": "CAH02-02",
+      "id": "CAH02-02-03"
+    },
+    {
+      "name": "nursing (non-specific)",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-01"
+    },
+    {
+      "name": "adult nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-02"
+    },
+    {
+      "name": "community nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-03"
+    },
+    {
+      "name": "midwifery",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-04"
+    },
+    {
+      "name": "children's nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-05"
+    },
+    {
+      "name": "dental nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-06"
+    },
+    {
+      "name": "mental health nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-07"
+    },
+    {
+      "name": "learning disabilities nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-08"
+    },
+    {
+      "name": "others in nursing",
+      "l1": "CAH02",
+      "l2": "CAH02-04",
+      "id": "CAH02-04-09"
+    },
+    {
+      "name": "medical technology",
+      "l1": "CAH02",
+      "l2": "CAH02-05",
+      "id": "CAH02-05-01"
+    },
+    {
+      "name": "healthcare science (non-specific)",
+      "l1": "CAH02",
+      "l2": "CAH02-05",
+      "id": "CAH02-05-02"
+    },
+    {
+      "name": "biomedical sciences (non-specific)",
+      "l1": "CAH02",
+      "l2": "CAH02-05",
+      "id": "CAH02-05-03"
+    },
+    {
+      "name": "anatomy, physiology and pathology",
+      "l1": "CAH02",
+      "l2": "CAH02-05",
+      "id": "CAH02-05-04"
+    },
+    {
+      "name": "health sciences (non-specific)",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-01"
+    },
+    {
+      "name": "nutrition and dietetics",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-02"
+    },
+    {
+      "name": "ophthalmics",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-03"
+    },
+    {
+      "name": "environmental and public health",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-04"
+    },
+    {
+      "name": "physiotherapy",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-05"
+    },
+    {
+      "name": "complementary and alternative medicine",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-06"
+    },
+    {
+      "name": "counselling, psychotherapy and occupational therapy",
+      "l1": "CAH02",
+      "l2": "CAH02-06",
+      "id": "CAH02-06-07"
+    },
+    {
+      "name": "biosciences (non-specific)",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-01"
+    },
+    {
+      "name": "biology (non-specific)",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-02"
+    },
+    {
+      "name": "ecology and environmental biology",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-03"
+    },
+    {
+      "name": "microbiology and cell science",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-04"
+    },
+    {
+      "name": "plant sciences",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-05"
+    },
+    {
+      "name": "zoology",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-06"
+    },
+    {
+      "name": "genetics",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-07"
+    },
+    {
+      "name": "molecular biology, biophysics and biochemistry",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-08"
+    },
+    {
+      "name": "hair and beauty sciences",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-09"
+    },
+    {
+      "name": "others in biosciences",
+      "l1": "CAH03",
+      "l2": "CAH03-01",
+      "id": "CAH03-01-10"
+    },
+    {
+      "name": "sport and exercise sciences",
+      "l1": "CAH03",
+      "l2": "CAH03-02",
+      "id": "CAH03-02-01"
+    },
+    {
+      "name": "psychology (non-specific)",
+      "l1": "CAH04",
+      "l2": "CAH04-01",
+      "id": "CAH04-01-01"
+    },
+    {
+      "name": "applied psychology",
+      "l1": "CAH04",
+      "l2": "CAH04-01",
+      "id": "CAH04-01-02"
+    },
+    {
+      "name": "developmental psychology",
+      "l1": "CAH04",
+      "l2": "CAH04-01",
+      "id": "CAH04-01-03"
+    },
+    {
+      "name": "psychology and health",
+      "l1": "CAH04",
+      "l2": "CAH04-01",
+      "id": "CAH04-01-04"
+    },
+    {
+      "name": "others in psychology",
+      "l1": "CAH04",
+      "l2": "CAH04-01",
+      "id": "CAH04-01-05"
+    },
+    {
+      "name": "veterinary medicine and dentistry",
+      "l1": "CAH05",
+      "l2": "CAH05-01",
+      "id": "CAH05-01-01"
+    },
+    {
+      "name": "others in veterinary sciences",
+      "l1": "CAH05",
+      "l2": "CAH05-01",
+      "id": "CAH05-01-02"
+    },
+    {
+      "name": "animal science",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-01"
+    },
+    {
+      "name": "agricultural sciences",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-02"
+    },
+    {
+      "name": "agriculture",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-03"
+    },
+    {
+      "name": "rural estate management",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-04"
+    },
+    {
+      "name": "forestry and arboriculture",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-05"
+    },
+    {
+      "name": "food and beverage studies (non-specific)",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-06"
+    },
+    {
+      "name": "food sciences",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-07"
+    },
+    {
+      "name": "food and beverage production",
+      "l1": "CAH06",
+      "l2": "CAH06-01",
+      "id": "CAH06-01-08"
+    },
+    {
+      "name": "physics",
+      "l1": "CAH07",
+      "l2": "CAH07-01",
+      "id": "CAH07-01-01"
+    },
+    {
+      "name": "astronomy",
+      "l1": "CAH07",
+      "l2": "CAH07-01",
+      "id": "CAH07-01-02"
+    },
+    {
+      "name": "chemistry",
+      "l1": "CAH07",
+      "l2": "CAH07-02",
+      "id": "CAH07-02-01"
+    },
+    {
+      "name": "physical sciences (non-specific)",
+      "l1": "CAH07",
+      "l2": "CAH07-04",
+      "id": "CAH07-04-01"
+    },
+    {
+      "name": "forensic and archaeological sciences",
+      "l1": "CAH07",
+      "l2": "CAH07-04",
+      "id": "CAH07-04-02"
+    },
+    {
+      "name": "sciences (non-specific)",
+      "l1": "CAH07",
+      "l2": "CAH07-04",
+      "id": "CAH07-04-03"
+    },
+    {
+      "name": "natural sciences (non-specific)",
+      "l1": "CAH07",
+      "l2": "CAH07-04",
+      "id": "CAH07-04-04"
+    },
+    {
+      "name": "mathematics",
+      "l1": "CAH09",
+      "l2": "CAH09-01",
+      "id": "CAH09-01-01"
+    },
+    {
+      "name": "operational research",
+      "l1": "CAH09",
+      "l2": "CAH09-01",
+      "id": "CAH09-01-02"
+    },
+    {
+      "name": "statistics",
+      "l1": "CAH09",
+      "l2": "CAH09-01",
+      "id": "CAH09-01-03"
+    },
+    {
+      "name": "engineering (non-specific)",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-01"
+    },
+    {
+      "name": "mechanical engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-02"
+    },
+    {
+      "name": "production and manufacturing engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-03"
+    },
+    {
+      "name": "aeronautical and aerospace engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-04"
+    },
+    {
+      "name": "naval architecture",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-05"
+    },
+    {
+      "name": "bioengineering, medical and biomedical engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-06"
+    },
+    {
+      "name": "civil engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-07"
+    },
+    {
+      "name": "electrical and electronic engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-08"
+    },
+    {
+      "name": "chemical, process and energy engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-09"
+    },
+    {
+      "name": "others in engineering",
+      "l1": "CAH10",
+      "l2": "CAH10-01",
+      "id": "CAH10-01-10"
+    },
+    {
+      "name": "minerals technology",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-01"
+    },
+    {
+      "name": "materials technology",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-02"
+    },
+    {
+      "name": "polymers and textiles",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-03"
+    },
+    {
+      "name": "maritime technology",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-04"
+    },
+    {
+      "name": "biotechnology",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-05"
+    },
+    {
+      "name": "others in technology",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-06"
+    },
+    {
+      "name": "materials science",
+      "l1": "CAH10",
+      "l2": "CAH10-03",
+      "id": "CAH10-03-07"
+    },
+    {
+      "name": "computer science",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-01"
+    },
+    {
+      "name": "information technology",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-02"
+    },
+    {
+      "name": "information systems",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-03"
+    },
+    {
+      "name": "software engineering",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-04"
+    },
+    {
+      "name": "artificial intelligence",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-05"
+    },
+    {
+      "name": "computer games and animation",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-06"
+    },
+    {
+      "name": "business computing",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-07"
+    },
+    {
+      "name": "others in computing",
+      "l1": "CAH11",
+      "l2": "CAH11-01",
+      "id": "CAH11-01-08"
+    },
+    {
+      "name": "architecture",
+      "l1": "CAH13",
+      "l2": "CAH13-01",
+      "id": "CAH13-01-01"
+    },
+    {
+      "name": "building",
+      "l1": "CAH13",
+      "l2": "CAH13-01",
+      "id": "CAH13-01-02"
+    },
+    {
+      "name": "landscape design",
+      "l1": "CAH13",
+      "l2": "CAH13-01",
+      "id": "CAH13-01-03"
+    },
+    {
+      "name": "planning (urban, rural and regional)",
+      "l1": "CAH13",
+      "l2": "CAH13-01",
+      "id": "CAH13-01-04"
+    },
+    {
+      "name": "social sciences (non-specific)",
+      "l1": "CAH15",
+      "l2": "CAH15-01",
+      "id": "CAH15-01-01"
+    },
+    {
+      "name": "sociology",
+      "l1": "CAH15",
+      "l2": "CAH15-01",
+      "id": "CAH15-01-02"
+    },
+    {
+      "name": "social policy",
+      "l1": "CAH15",
+      "l2": "CAH15-01",
+      "id": "CAH15-01-03"
+    },
+    {
+      "name": "anthropology",
+      "l1": "CAH15",
+      "l2": "CAH15-01",
+      "id": "CAH15-01-04"
+    },
+    {
+      "name": "development studies",
+      "l1": "CAH15",
+      "l2": "CAH15-01",
+      "id": "CAH15-01-05"
+    },
+    {
+      "name": "cultural studies",
+      "l1": "CAH15",
+      "l2": "CAH15-01",
+      "id": "CAH15-01-06"
+    },
+    {
+      "name": "economics",
+      "l1": "CAH15",
+      "l2": "CAH15-02",
+      "id": "CAH15-02-01"
+    },
+    {
+      "name": "politics",
+      "l1": "CAH15",
+      "l2": "CAH15-03",
+      "id": "CAH15-03-01"
+    },
+    {
+      "name": "social work",
+      "l1": "CAH15",
+      "l2": "CAH15-04",
+      "id": "CAH15-04-01"
+    },
+    {
+      "name": "childhood and youth studies",
+      "l1": "CAH15",
+      "l2": "CAH15-04",
+      "id": "CAH15-04-02"
+    },
+    {
+      "name": "health studies",
+      "l1": "CAH15",
+      "l2": "CAH15-04",
+      "id": "CAH15-04-03"
+    },
+    {
+      "name": "law",
+      "l1": "CAH16",
+      "l2": "CAH16-01",
+      "id": "CAH16-01-01"
+    },
+    {
+      "name": "business and management (non-specific)",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-01"
+    },
+    {
+      "name": "business studies",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-02"
+    },
+    {
+      "name": "marketing",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-03"
+    },
+    {
+      "name": "management studies",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-04"
+    },
+    {
+      "name": "human resource management",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-05"
+    },
+    {
+      "name": "tourism, transport and travel",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-06"
+    },
+    {
+      "name": "finance",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-07"
+    },
+    {
+      "name": "accounting",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-08"
+    },
+    {
+      "name": "others in business and management",
+      "l1": "CAH17",
+      "l2": "CAH17-01",
+      "id": "CAH17-01-09"
+    },
+    {
+      "name": "English studies (non-specific)",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-01"
+    },
+    {
+      "name": "English language",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-02"
+    },
+    {
+      "name": "literature in English",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-03"
+    },
+    {
+      "name": "studies of specific authors",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-04"
+    },
+    {
+      "name": "creative writing",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-05"
+    },
+    {
+      "name": "others in English studies",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-06"
+    },
+    {
+      "name": "linguistics",
+      "l1": "CAH19",
+      "l2": "CAH19-01",
+      "id": "CAH19-01-07"
+    },
+    {
+      "name": "Celtic studies (non-specific)",
+      "l1": "CAH19",
+      "l2": "CAH19-02",
+      "id": "CAH19-02-01"
+    },
+    {
+      "name": "Gaelic studies",
+      "l1": "CAH19",
+      "l2": "CAH19-02",
+      "id": "CAH19-02-02"
+    },
+    {
+      "name": "Welsh studies",
+      "l1": "CAH19",
+      "l2": "CAH19-02",
+      "id": "CAH19-02-03"
+    },
+    {
+      "name": "others in Celtic studies",
+      "l1": "CAH19",
+      "l2": "CAH19-02",
+      "id": "CAH19-02-04"
+    },
+    {
+      "name": "French studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-01"
+    },
+    {
+      "name": "German and Scandinavian studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-02"
+    },
+    {
+      "name": "Italian studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-03"
+    },
+    {
+      "name": "Iberian studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-04"
+    },
+    {
+      "name": "Slavic studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-05"
+    },
+    {
+      "name": "Asian studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-06"
+    },
+    {
+      "name": "African and modern Middle Eastern studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-07"
+    },
+    {
+      "name": "American and Australasian studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-08"
+    },
+    {
+      "name": "others in language and area studies",
+      "l1": "CAH19",
+      "l2": "CAH19-04",
+      "id": "CAH19-04-09"
+    },
+    {
+      "name": "history",
+      "l1": "CAH20",
+      "l2": "CAH20-01",
+      "id": "CAH20-01-01"
+    },
+    {
+      "name": "history of art, architecture and design",
+      "l1": "CAH20",
+      "l2": "CAH20-01",
+      "id": "CAH20-01-02"
+    },
+    {
+      "name": "archaeology",
+      "l1": "CAH20",
+      "l2": "CAH20-01",
+      "id": "CAH20-01-03"
+    },
+    {
+      "name": "heritage studies",
+      "l1": "CAH20",
+      "l2": "CAH20-01",
+      "id": "CAH20-01-04"
+    },
+    {
+      "name": "classics",
+      "l1": "CAH20",
+      "l2": "CAH20-01",
+      "id": "CAH20-01-05"
+    },
+    {
+      "name": "philosophy",
+      "l1": "CAH20",
+      "l2": "CAH20-02",
+      "id": "CAH20-02-01"
+    },
+    {
+      "name": "theology and religious studies",
+      "l1": "CAH20",
+      "l2": "CAH20-02",
+      "id": "CAH20-02-02"
+    },
+    {
+      "name": "education",
+      "l1": "CAH22",
+      "l2": "CAH22-01",
+      "id": "CAH22-01-01"
+    },
+    {
+      "name": "teacher training",
+      "l1": "CAH22",
+      "l2": "CAH22-01",
+      "id": "CAH22-01-02"
+    },
+    {
+      "name": "combined, general or negotiated studies",
+      "l1": "CAH23",
+      "l2": "CAH23-01",
+      "id": "CAH23-01-01"
+    },
+    {
+      "name": "personal development",
+      "l1": "CAH23",
+      "l2": "CAH23-01",
+      "id": "CAH23-01-02"
+    },
+    {
+      "name": "humanities (non-specific)",
+      "l1": "CAH23",
+      "l2": "CAH23-01",
+      "id": "CAH23-01-03"
+    },
+    {
+      "name": "liberal arts (non-specific)",
+      "l1": "CAH23",
+      "l2": "CAH23-01",
+      "id": "CAH23-01-04"
+    },
+    {
+      "name": "information services",
+      "l1": "CAH24",
+      "l2": "CAH24-01",
+      "id": "CAH24-01-01"
+    },
+    {
+      "name": "publicity studies",
+      "l1": "CAH24",
+      "l2": "CAH24-01",
+      "id": "CAH24-01-02"
+    },
+    {
+      "name": "publishing",
+      "l1": "CAH24",
+      "l2": "CAH24-01",
+      "id": "CAH24-01-03"
+    },
+    {
+      "name": "journalism",
+      "l1": "CAH24",
+      "l2": "CAH24-01",
+      "id": "CAH24-01-04"
+    },
+    {
+      "name": "media studies",
+      "l1": "CAH24",
+      "l2": "CAH24-01",
+      "id": "CAH24-01-05"
+    },
+    {
+      "name": "creative arts and design (non-specific)",
+      "l1": "CAH25",
+      "l2": "CAH25-01",
+      "id": "CAH25-01-01"
+    },
+    {
+      "name": "art",
+      "l1": "CAH25",
+      "l2": "CAH25-01",
+      "id": "CAH25-01-02"
+    },
+    {
+      "name": "design studies",
+      "l1": "CAH25",
+      "l2": "CAH25-01",
+      "id": "CAH25-01-03"
+    },
+    {
+      "name": "cinematics and photography",
+      "l1": "CAH25",
+      "l2": "CAH25-01",
+      "id": "CAH25-01-04"
+    },
+    {
+      "name": "others in creative arts and design",
+      "l1": "CAH25",
+      "l2": "CAH25-01",
+      "id": "CAH25-01-05"
+    },
+    {
+      "name": "performing arts (non-specific)",
+      "l1": "CAH25",
+      "l2": "CAH25-02",
+      "id": "CAH25-02-01"
+    },
+    {
+      "name": "music",
+      "l1": "CAH25",
+      "l2": "CAH25-02",
+      "id": "CAH25-02-02"
+    },
+    {
+      "name": "drama",
+      "l1": "CAH25",
+      "l2": "CAH25-02",
+      "id": "CAH25-02-03"
+    },
+    {
+      "name": "dance",
+      "l1": "CAH25",
+      "l2": "CAH25-02",
+      "id": "CAH25-02-04"
+    },
+    {
+      "name": "geography (non-specific)",
+      "l1": "CAH26",
+      "l2": "CAH26-01",
+      "id": "CAH26-01-01"
+    },
+    {
+      "name": "physical geographical sciences",
+      "l1": "CAH26",
+      "l2": "CAH26-01",
+      "id": "CAH26-01-02"
+    },
+    {
+      "name": "human geography",
+      "l1": "CAH26",
+      "l2": "CAH26-01",
+      "id": "CAH26-01-03"
+    },
+    {
+      "name": "environmental sciences",
+      "l1": "CAH26",
+      "l2": "CAH26-01",
+      "id": "CAH26-01-04"
+    },
+    {
+      "name": "others in geographical studies",
+      "l1": "CAH26",
+      "l2": "CAH26-01",
+      "id": "CAH26-01-05"
+    },
+    {
+      "name": "earth sciences",
+      "l1": "CAH26",
+      "l2": "CAH26-01",
+      "id": "CAH26-01-06"
+    },
+    {
+      "name": "Not applicable",
+      "l1": "CAHZ5",
+      "l2": "CAHZ5",
+      "id": "CAHZ5"
+    }
+  ]
+}

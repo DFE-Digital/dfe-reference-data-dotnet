@@ -1,0 +1,136 @@
+{
+  "description": "Initial teacher training subject categories, as currently used by Register.",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_itt.md#dfereferencedataittregister_categories",
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "publish_category": {
+      "kind": "optional",
+      "schema": "string"
+    }
+  },
+  "field_descriptions": {
+    "id": "A unique identified for this subject category",
+    "name": "The long name for this subject category",
+    "publish_category": "Where a direct correspondence with a Publish category exists, the ID of that Publish category"
+  },
+  "records": [
+    {
+      "name": "Physical education",
+      "publish_category": "C6",
+      "id": "b2e39f76-9f45-47ea-bb5c-24d02b232a72"
+    },
+    {
+      "name": "Economics",
+      "publish_category": "L1",
+      "id": "a996783b-c1f0-4420-95ec-a531112f009f"
+    },
+    {
+      "name": "Design and technology",
+      "publish_category": "DT",
+      "id": "05798776-a0db-4378-8c9c-4e9bfe69b1c6"
+    },
+    {
+      "name": "Ancient languages",
+      "id": "0893125c-ebe1-411c-a890-21bd59e11e09"
+    },
+    {
+      "name": "General sciences",
+      "publish_category": "F0",
+      "id": "46750c03-bbd2-4e2e-881a-a84349970cea"
+    },
+    {
+      "name": "English",
+      "publish_category": "Q3",
+      "id": "89ebd882-0e20-4e02-bf76-80427c061aed"
+    },
+    {
+      "name": "Chemistry",
+      "publish_category": "F1",
+      "id": "c6e125b6-e6da-43bf-8d1b-6f8d6349057c"
+    },
+    {
+      "name": "Physics",
+      "publish_category": "F3",
+      "id": "cc6a43bf-78fd-4253-aa7d-0b301b8ce355"
+    },
+    {
+      "name": "Computing",
+      "publish_category": "11",
+      "id": "5050634c-2f57-4654-b1aa-ddae3089ac37"
+    },
+    {
+      "name": "Primary with mathematics",
+      "publish_category": "03",
+      "id": "4b52ca55-cf75-434e-85e7-c08392f9abb7"
+    },
+    {
+      "name": "Art and design",
+      "publish_category": "W1",
+      "id": "6ea9457d-b8a2-4211-b58b-064fed680c99"
+    },
+    {
+      "name": "Other subjects",
+      "id": "61af352e-fec4-48e0-9fb6-926f2663e229"
+    },
+    {
+      "name": "Classics",
+      "publish_category": "Q8",
+      "id": "057ec850-f246-4830-a4c5-d8e189d9aab4"
+    },
+    {
+      "name": "Drama",
+      "publish_category": "13",
+      "id": "e46e935b-d692-431f-bf0d-b0aad57b6035"
+    },
+    {
+      "name": "Modern languages",
+      "id": "d46e3117-5eae-4609-8abc-a49cb4ec38d0"
+    },
+    {
+      "name": "Music",
+      "publish_category": "W3",
+      "id": "4a61215c-0fec-4d19-800b-3eb6eae95e63"
+    },
+    {
+      "name": "Mathematics",
+      "publish_category": "G1",
+      "id": "499be4ee-3895-4c69-92f1-e95d5670a399"
+    },
+    {
+      "name": "History",
+      "publish_category": "V1",
+      "id": "3b42c830-7f8c-415d-922d-f93c2796a1a2"
+    },
+    {
+      "name": "Religious education",
+      "publish_category": "V6",
+      "id": "142d7142-7e60-4d2d-a7c8-a9e7d308b0c7"
+    },
+    {
+      "name": "Biology",
+      "publish_category": "C1",
+      "id": "d1dbc6f9-806a-45dc-93c3-ea7ab17aa7fb"
+    },
+    {
+      "name": "Early years ITT",
+      "id": "0fd6679d-9e68-47ea-b783-1bdfb6222fdd"
+    },
+    {
+      "name": "Primary",
+      "publish_category": "00",
+      "id": "237db1c8-428a-464b-8e9c-9ef316ecaf3c"
+    },
+    {
+      "name": "Business studies",
+      "publish_category": "08",
+      "id": "f95ee557-44de-469b-830c-854d3701d802"
+    },
+    {
+      "name": "Geography",
+      "publish_category": "F8",
+      "id": "48be902f-9eb4-4f80-8d0b-206143bb7a55"
+    }
+  ]
+}

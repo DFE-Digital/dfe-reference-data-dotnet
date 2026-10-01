@@ -1,0 +1,82 @@
+{
+  "description": "Generic options for where we do not have a record for a specific institution.",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_degrees.md#dfereferencedatadegreesgeneric_institutions",
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "suggestion_synonyms": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "match_synonyms": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "hesa_itt_code": {
+      "kind": "optional",
+      "schema": {
+        "kind": "code",
+        "pattern": "(?-mix:^[0-9]+$)"
+      }
+    },
+    "dttp_id": {
+      "kind": "optional",
+      "schema": {
+        "kind": "code",
+        "pattern": "(?-mix:^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$)"
+      }
+    },
+    "ukprn": {
+      "kind": "optional",
+      "schema": {
+        "kind": "code",
+        "pattern": "(?-mix:^[0-9]+$)"
+      }
+    },
+    "comment": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "closed": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "has_never_awarded_degrees": {
+      "kind": "optional",
+      "schema": "boolean"
+    },
+    "institution_groups": {
+      "kind": "array",
+      "element_schema": "string"
+    },
+    "postcode": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "generic": "boolean"
+  },
+  "field_descriptions": {
+    "id": "A unique identified for this institution",
+    "name": "The full name of the institution",
+    "suggestion_synonyms": "A list of common alternative names that *may* be appropriate for this institution",
+    "match_synonyms": "A list of common alternative names that are equivalent to this institution. An answer matching a match synonym can be safely matched to this institution.",
+    "dttp_id": "The ID used for this institution in DTTP",
+    "hesa_itt_code": "The HESA DEGEST code for this instutition (see [DEGEST](https://www.hesa.ac.uk/collection/c22053/e/degest) docs)",
+    "ukprn": "The ID of this institution in the UK Register of Learning Providers",
+    "closed": "If present, the year in which the institution closed or stopped awarding degrees",
+    "has_never_awarded_degrees": "If present and true, the institution has never awarded degrees, was included in an earlier version of this list by mistake, and is kept purely to support interpretation of legacy data",
+    "comment": "Editor's comments on the entry (not necessarily of interest to external users of the data)",
+    "institution_groups": "The groups to which the institution belongs",
+    "postcode": "Postcode of the institution"
+  },
+  "records": [
+    {
+      "name": "Other UK institution",
+      "suggestion_synonyms": [],
+      "match_synonyms": [],
+      "generic": true,
+      "id": "02132969-f5bc-47ca-be9c-b6f6d5b05e1b"
+    }
+  ]
+}

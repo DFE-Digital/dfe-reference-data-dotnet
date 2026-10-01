@@ -1,0 +1,91 @@
+{
+  "description": "Initial primary-level teacher training subjects, referred to as \"specialisms\" in some contexts",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_itt.md#dfereferencedataittprimary_subjects-dfereferencedataittsecondary_subjects-and-dfereferencedataittsubjects",
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "hecos_code": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "register_category": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "publish_category": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "category": {
+      "kind": "optional",
+      "schema": "string"
+    },
+    "incentive": {
+      "kind": "map",
+      "key": "string",
+      "value": "string"
+    }
+  },
+  "field_descriptions": {
+    "id": "A unique identifier for this ITT subject",
+    "name": "The long name of the ITT subject.",
+    "hecos_code": "The HECoS code for the subject, as per HESA field [SBJCA](https://www.hesa.ac.uk/collection/c22053/e/sbjca)",
+    "category": "The ID of the category that this subject is a specialism of",
+    "register_category": "The ID of the category that this subject is a specialism of, as per the current Register categories list",
+    "publish_category": "The ID of the category that this subject is a specialism of, as per the current Publish categories list",
+    "incentive": "A map from academic years to the IDs of the incentive for this subject, for courses starting in the academic year"
+  },
+  "records": [
+    {
+      "name": "primary teaching",
+      "hecos_code": "100511",
+      "register_category": "237db1c8-428a-464b-8e9c-9ef316ecaf3c",
+      "publish_category": "00",
+      "category": "50a6f234-2af4-4052-bec4-a3d9241e35dc",
+      "id": "20ee1e1f-edce-4dbd-9bf4-022f0757114d"
+    },
+    {
+      "name": "primary with mathematics",
+      "hecos_code": "101085",
+      "register_category": "4b52ca55-cf75-434e-85e7-c08392f9abb7",
+      "publish_category": "03",
+      "incentive": {
+        "2020-2021": "9c781d11-7e11-4920-be17-0bcea0a8c899"
+      },
+      "category": "50a6f234-2af4-4052-bec4-a3d9241e35dc",
+      "id": "c014fa9a-9b32-4bce-9b9c-a8ca201722f8"
+    },
+    {
+      "name": "primary with geography and history",
+      "publish_category": "02",
+      "category": "50a6f234-2af4-4052-bec4-a3d9241e35dc",
+      "id": "ac245e19-da50-4cd2-bcca-988eee9f6af3"
+    },
+    {
+      "name": "primary with modern languages",
+      "publish_category": "04",
+      "category": "50a6f234-2af4-4052-bec4-a3d9241e35dc",
+      "id": "e9e397be-f8a0-449e-bbe1-a1c58b228906"
+    },
+    {
+      "name": "primary with physical education",
+      "publish_category": "06",
+      "category": "50a6f234-2af4-4052-bec4-a3d9241e35dc",
+      "id": "a18310a6-2770-4ede-9ebc-a116d43f4288"
+    },
+    {
+      "name": "primary with science",
+      "publish_category": "07",
+      "category": "50a6f234-2af4-4052-bec4-a3d9241e35dc",
+      "id": "1c1577a0-9c78-44c6-b252-a375fb29408f"
+    },
+    {
+      "name": "early years teaching",
+      "hecos_code": "100510",
+      "register_category": "0fd6679d-9e68-47ea-b783-1bdfb6222fdd",
+      "category": "5c0ec601-e802-475b-b310-f32068f78f57",
+      "id": "e8252cb5-c98b-45b8-b3de-e763a7ed79df"
+    }
+  ]
+}

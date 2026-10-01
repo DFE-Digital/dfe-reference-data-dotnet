@@ -1,0 +1,146 @@
+{
+  "description": "Initial teacher training recruitment cycles.",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_itt.md#dfereferencedataittcycles",
+  "schema": {
+    "id": {
+      "kind": "code",
+      "pattern": "(?-mix:^[0-9]{4}-[0-9]{4}$)"
+    },
+    "find_opens": "datetime",
+    "apply_opens": "datetime",
+    "apply_1_deadline": {
+      "kind": "optional",
+      "schema": "datetime"
+    },
+    "apply_2_deadline": "datetime",
+    "provider_decision_deadline": "datetime",
+    "find_closes": "datetime",
+    "non_working_days": {
+      "kind": "map",
+      "key": "symbol",
+      "value": "daterange"
+    }
+  },
+  "field_descriptions": {
+    "id": "A unique ID of the form `YYYY-YYYY`, identifying the opening and closing years of the recruitment phase of the cycle (eg, `2018-2019` for the cycle where the application deadlines are in 2019)",
+    "find_opens": "The point at which Find Postgraduate Teacher Training starts showing courses in this cycle",
+    "apply_opens": "The point at which Apply For Teacher Training starts allowing applications to courses in this cycle",
+    "apply_1_deadline": "The point at which Apply For Teacher Training stops accepting apply 1 applications to courses in this cycle",
+    "apply_2_deadline": "The point at which Apply For Teacher Training stops accepting apply 2 applications to courses in this cycle",
+    "provider_decision_deadline": "The point at which unresolved applications for courses in this cycle are rejected automatically, so all provider application decisions must have been made",
+    "find_closes": "The point at which Find Postgraduate Teacher Training stops showing courses in this cycle",
+    "non_working_days": "Non-working-day periods within this cycle (the symbols being names such as `christmas` and `easter`"
+  },
+  "records": [
+    {
+      "find_opens": "2018-10-06T08:00:00+00:00",
+      "apply_opens": "2018-10-13T08:00:00+00:00",
+      "apply_1_deadline": "2019-08-24T17:00:00+00:00",
+      "apply_2_deadline": "2019-09-18T17:00:00+00:00",
+      "provider_decision_deadline": "2019-09-29T22:59:59+00:00",
+      "find_closes": "2019-10-03T22:59:59+00:00",
+      "non_working_days": {},
+      "id": "2018-2019"
+    },
+    {
+      "find_opens": "2019-10-06T08:00:00+00:00",
+      "apply_opens": "2019-10-13T08:00:00+00:00",
+      "apply_1_deadline": "2020-08-24T17:00:00+00:00",
+      "apply_2_deadline": "2020-09-18T17:00:00+00:00",
+      "provider_decision_deadline": "2020-09-29T22:59:59+00:00",
+      "find_closes": "2020-10-03T22:59:59+00:00",
+      "non_working_days": {},
+      "id": "2019-2020"
+    },
+    {
+      "find_opens": "2020-10-06T08:00:00+00:00",
+      "apply_opens": "2020-10-13T08:00:00+00:00",
+      "apply_1_deadline": "2021-09-07T17:00:00+00:00",
+      "apply_2_deadline": "2021-09-21T17:00:00+00:00",
+      "provider_decision_deadline": "2021-09-29T22:59:59+00:00",
+      "find_closes": "2021-10-04T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2020-12-20..2021-01-01",
+        "easter": "2021-04-02..2021-04-16"
+      },
+      "id": "2020-2021"
+    },
+    {
+      "find_opens": "2021-10-05T08:00:00+00:00",
+      "apply_opens": "2021-10-12T08:00:00+00:00",
+      "apply_1_deadline": "2022-09-06T17:00:00+00:00",
+      "apply_2_deadline": "2022-09-20T17:00:00+00:00",
+      "provider_decision_deadline": "2022-09-28T22:59:59+00:00",
+      "find_closes": "2022-10-03T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2021-12-14..2022-01-16",
+        "easter": "2022-04-04..2022-04-18"
+      },
+      "id": "2021-2022"
+    },
+    {
+      "find_opens": "2022-10-04T08:00:00+00:00",
+      "apply_opens": "2022-10-11T08:00:00+00:00",
+      "apply_1_deadline": "2023-09-05T17:00:00+00:00",
+      "apply_2_deadline": "2023-09-19T17:00:00+00:00",
+      "provider_decision_deadline": "2023-09-27T22:59:59+00:00",
+      "find_closes": "2023-10-02T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2022-12-19..2023-01-06",
+        "easter": "2023-03-27..2023-04-10"
+      },
+      "id": "2022-2023"
+    },
+    {
+      "find_opens": "2023-10-03T08:00:00+00:00",
+      "apply_opens": "2023-10-10T08:00:00+00:00",
+      "apply_1_deadline": "2024-09-03T17:00:00+00:00",
+      "apply_2_deadline": "2024-09-17T17:00:00+00:00",
+      "provider_decision_deadline": "2024-09-25T22:59:59+00:00",
+      "find_closes": "2024-09-30T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2023-12-18..2024-01-05",
+        "easter": "2024-03-18..2024-04-01"
+      },
+      "id": "2023-2024"
+    },
+    {
+      "find_opens": "2024-10-01T08:00:00+00:00",
+      "apply_opens": "2024-10-08T08:00:00+00:00",
+      "apply_1_deadline": null,
+      "apply_2_deadline": "2025-09-16T17:00:00+00:00",
+      "provider_decision_deadline": "2025-09-24T22:59:59+00:00",
+      "find_closes": "2025-09-29T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2024-12-16..2025-01-03",
+        "easter": "2025-04-07..2025-04-21"
+      },
+      "id": "2024-2025"
+    },
+    {
+      "find_opens": "2025-09-30T08:00:00+00:00",
+      "apply_opens": "2025-10-07T08:00:00+00:00",
+      "apply_1_deadline": null,
+      "apply_2_deadline": "2026-09-15T17:00:00+00:00",
+      "provider_decision_deadline": "2026-09-23T22:59:59+00:00",
+      "find_closes": "2026-09-28T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2025-12-27..2026-12-31"
+      },
+      "id": "2025-2026"
+    },
+    {
+      "find_opens": "2026-09-29T08:00:00+00:00",
+      "apply_opens": "2026-10-06T08:00:00+00:00",
+      "apply_1_deadline": null,
+      "apply_2_deadline": "2027-09-21T17:00:00+00:00",
+      "provider_decision_deadline": "2027-09-29T22:59:59+00:00",
+      "find_closes": "2027-10-04T22:59:59+00:00",
+      "non_working_days": {
+        "christmas": "2026-12-27..2026-12-31"
+      },
+      "id": "2026-2027"
+    }
+  ]
+}

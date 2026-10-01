@@ -1,0 +1,293 @@
+{
+  "description": "Initial teacher training subject categories, as currently used by Publish.",
+  "usage_guidance": null,
+  "docs_url": "https://github.com/DFE-Digital/dfe-reference-data/blob/main/docs/lists_itt.md#dfereferencedataittpublish_categories",
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "age_range": "symbol",
+    "tad_category": {
+      "kind": "optional",
+      "schema": "string"
+    }
+  },
+  "field_descriptions": {
+    "id": "A unique identifier for this subject category",
+    "name": "The long name of the subject category",
+    "age_range": "The age range this subject category applies to",
+    "tad_category": "Where a direct correspondence with a TAD category exists with this record, the ID of that TAD category"
+  },
+  "records": [
+    {
+      "name": "Primary",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "00"
+    },
+    {
+      "name": "Primary with English",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "01"
+    },
+    {
+      "name": "Primary with geography and history",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "02"
+    },
+    {
+      "name": "Primary with mathematics",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "03"
+    },
+    {
+      "name": "Primary with modern languages",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "04"
+    },
+    {
+      "name": "Primary with physical education",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "06"
+    },
+    {
+      "name": "Primary with science",
+      "age_range": "primary",
+      "tad_category": "19",
+      "id": "07"
+    },
+    {
+      "name": "Art and design",
+      "age_range": "secondary",
+      "tad_category": "1",
+      "id": "W1"
+    },
+    {
+      "name": "Science",
+      "age_range": "seconday",
+      "tad_category": "18",
+      "id": "F0"
+    },
+    {
+      "name": "Biology",
+      "age_range": "secondary",
+      "tad_category": "2",
+      "id": "C1"
+    },
+    {
+      "name": "Business studies",
+      "age_range": "secondary",
+      "tad_category": "3",
+      "id": "08"
+    },
+    {
+      "name": "Chemistry",
+      "age_range": "secondary",
+      "tad_category": "4",
+      "id": "F1"
+    },
+    {
+      "name": "Citizenship",
+      "age_range": "secondary",
+      "tad_category": "16",
+      "id": "09"
+    },
+    {
+      "name": "Classics",
+      "age_range": "secondary",
+      "tad_category": "5",
+      "id": "Q8"
+    },
+    {
+      "name": "Communication and media studies",
+      "age_range": "secondary",
+      "tad_category": "16",
+      "id": "P3"
+    },
+    {
+      "name": "Computing",
+      "age_range": "secondary",
+      "tad_category": "6",
+      "id": "11"
+    },
+    {
+      "name": "Dance",
+      "age_range": "secondary",
+      "tad_category": "17",
+      "id": "12"
+    },
+    {
+      "name": "Design and technology",
+      "age_range": "secondary",
+      "tad_category": "7",
+      "id": "DT"
+    },
+    {
+      "name": "Drama",
+      "age_range": "secondary",
+      "tad_category": "8",
+      "id": "13"
+    },
+    {
+      "name": "Economics",
+      "age_range": "secondary",
+      "tad_category": "3",
+      "id": "L1"
+    },
+    {
+      "name": "English",
+      "age_range": "secondary",
+      "tad_category": "9",
+      "id": "Q3"
+    },
+    {
+      "name": "Geography",
+      "age_range": "secondary",
+      "tad_category": "10",
+      "id": "F8"
+    },
+    {
+      "name": "Health and social care",
+      "age_range": "secondary",
+      "tad_category": "16",
+      "id": "L5"
+    },
+    {
+      "name": "History",
+      "age_range": "secondary",
+      "tad_category": "11",
+      "id": "V1"
+    },
+    {
+      "name": "Mathematics",
+      "age_range": "secondary",
+      "tad_category": "12",
+      "id": "G1"
+    },
+    {
+      "name": "Music",
+      "age_range": "secondary",
+      "tad_category": "14",
+      "id": "W3"
+    },
+    {
+      "name": "Philosophy",
+      "age_range": "secondary",
+      "tad_category": "16",
+      "id": "P1"
+    },
+    {
+      "name": "Physical education",
+      "age_range": "secondary",
+      "tad_category": "17",
+      "id": "C6"
+    },
+    {
+      "name": "Physics",
+      "age_range": "secondary",
+      "tad_category": "18",
+      "id": "F3"
+    },
+    {
+      "name": "Psychology",
+      "age_range": "secondary",
+      "tad_category": "16",
+      "id": "C8"
+    },
+    {
+      "name": "Religious education",
+      "age_range": "secondary",
+      "tad_category": "20",
+      "id": "V6"
+    },
+    {
+      "name": "Social sciences",
+      "age_range": "secondary",
+      "tad_category": "16",
+      "id": "14"
+    },
+    {
+      "name": "French",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "15"
+    },
+    {
+      "name": "English as a second or other language",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "16"
+    },
+    {
+      "name": "German",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "17"
+    },
+    {
+      "name": "Italian",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "18"
+    },
+    {
+      "name": "Japanese",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "19"
+    },
+    {
+      "name": "Mandarin",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "20"
+    },
+    {
+      "name": "Russian",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "21"
+    },
+    {
+      "name": "Spanish",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "22"
+    },
+    {
+      "name": "Further education",
+      "age_range": "further",
+      "id": "41"
+    },
+    {
+      "name": "Modern languages (other)",
+      "age_range": "secondary",
+      "tad_category": "13",
+      "id": "24"
+    },
+    {
+      "name": "Latin",
+      "age_range": "secondary",
+      "id": "A0"
+    },
+    {
+      "name": "Ancient Greek",
+      "age_range": "secondary",
+      "id": "A1"
+    },
+    {
+      "name": "Ancient Hebrew",
+      "age_range": "secondary",
+      "id": "A2"
+    },
+    {
+      "name": "Physical education with an EBacc subject",
+      "age_range": "secondary",
+      "id": "C7"
+    }
+  ]
+}

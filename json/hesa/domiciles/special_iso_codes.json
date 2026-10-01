@@ -1,0 +1,43 @@
+{
+  "description": null,
+  "usage_guidance": null,
+  "docs_url": null,
+  "schema": {
+    "id": {
+      "schema": "string",
+      "kind": "optional"
+    },
+    "code": "string"
+  },
+  "field_descriptions": null,
+  "records": [
+    {
+      "code": "ZZ",
+      "id": null
+    },
+    {
+      "code": "XX",
+      "id": "AQ"
+    },
+    {
+      "code": "XC",
+      "id": "CY"
+    },
+    {
+      "code": "QO",
+      "id": "XK"
+    },
+    {
+      "code": "TW",
+      "id": "TW"
+    },
+    {
+      "code": "MO",
+      "id": "MO"
+    },
+    {
+      "code": "PR",
+      "id": "PR"
+    }
+  ]
+}
