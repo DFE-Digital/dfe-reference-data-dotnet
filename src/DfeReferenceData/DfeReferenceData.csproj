@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsAotCompatible>true</IsAotCompatible>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- The exported reference data is embedded, named by its path relative to the json directory (e.g. bank_holidays/bank_holidays.json). -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\json\**\*.json"
+                      LogicalName="$([System.String]::Copy('%(RecursiveDir)').Replace('\', '/'))%(Filename)%(Extension)"
+                      Link="Json\%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>
